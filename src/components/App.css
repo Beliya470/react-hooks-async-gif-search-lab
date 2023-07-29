@@ -1,0 +1,44 @@
+/* App.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #007bff; /* Vibrant blue header background color */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .navbar {
+    background-color: #555; /* Dark gray navbar background color */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gif-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gif-item {
+    width: 120px;
+    margin: 10px;
+    border: 1px solid #9f5c70;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gif-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Add more CSS styles for other components if needed */
+  
